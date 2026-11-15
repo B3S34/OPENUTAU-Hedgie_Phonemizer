@@ -1,0 +1,57 @@
+phoneme Guide
+Vowel		: a e i o u A E O U
+Consonant	: short		: g d b , j t p 
+		  long		: ng n m w y , k h ch sh s th ph f rr r l v z ts (Extra included)
+		  *cluster based: l r w y
+Support Last Consonant that have [C C] : g b d n m y w ng
+
+
+Lyric Guide
+-	Voice
+Record Type	Alias	Duties				Note #A					Note #B
+CVVC		CV	- Middle CV 			[]
+CVVC		-.CV	- Beginning CV			[]
+CC		-.C	- Beginning C			[As VCV] 				for long consonant
+CC		- C	- Beginning C			[As CVVC] 				for long consonant
+VV		-.V	- Beginning V			[]
+VV		V.V	- Close V to V			[]
+VV		V.V・	- Glottal stop V to V		[]
+CVVC		V.C	- Close V to C 			[]
+CVVC		C.V	- Last consonant to Empty-vowel	[]
+CC		C.C	- Consonant to Consonant	[]
+CVVC		C.V・	- Last consonant to Empty-vowel	[To make C made sound] 			for C to be g,d,b
+CC		C.C・	- Consonant to Consonant	[To make first C made sound] 		for front C to be g,d,b
+CVVC		V C	- End Vowel to Start Consonant	[]
+CC		C C	- Last to Front Consonant	[]
+-CX		CX	- Cluster Mid			[]					usage -> put [CX] in front of [XV]
+-CX		-.CX	- Cluster Start			[]					usage -> put [CX] in front of [XV]
+
+-	Rest/End
+Record Type	Alias	Duties				Note #A					Note #B
+VV		V.R	- Vowel Rest			[]
+VV		V.hh	- Vowel Rest breath out		[]
+VV		V.hh2	- Vowel Rest breath in		[]
+CVVC		V.C-	- Consonant Rest		[]
+CVVC		V.C-・	- Consonant Rest		[To make C made sound] 			for C to be g,d,b
+CC		C.R	- Consonant Rest		[]					for long consonant
+CC		C.hh	- Consonant Rest breath out	[]					for long consonant
+CC		C.hh2	- Consonant Rest breath in	[]					for long consonant
+
+
+oto help 
+[  CV-CVC-VC  ]
+	[-.CV][V C][CV][V.C][C.V][V.C-]
+[  C'VC'  ]
+	[C.V・][V.C-・]
+[  VC-CV  ]
+	[C C],[C.C]	#same oto for non g,d,b
+[  VC'CV  ]
+	[C.C・]
+[  CCV-CCV  ]
+	[-.CX][CX]
+[  C  ]			#Long consonant
+	[-.C][- C][C][C.C][C.R]
+
+Additional(long consonant) #Presamp
+C -> last consonant (act as V for Presamp)
+- C -> First consonant (act as C for Presamp)
