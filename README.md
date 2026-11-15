@@ -71,3 +71,14 @@ This Phonemizer is use for specific reclist style of **Hedgie Thai VCCV** reclis
 Occurs in Thai phonetics : **gr kr tr thr pr phr gl kl pl phl gw kw**
 
 Extra Cluster : **prr phrr brr frr thrr trr drr shrr krr grr vrr br fr dr shr vr bl fl sl thw dw sw tw vw by dy fy gy ky phy py my ny vy zy sp sph st sth sm sn sf spr sphr str sthr skr sprr sphrr str sthrr skrr spl sphl skl stw sthw skw sky spy sphy**
+
+**Lyrics Input**
+    Lyrics Input in "CVX" form as Consonat(C) Vowel(V) Coda(X) in all
+	
+	**C** can be Initial Alias, Cluster or leave it blank as glottal stop
+	
+	**V** can be In Vowel Alias, can be written as many as you want
+	
+	**X** can be Initial Alias, Phonemizer will convert to coda alias automaticly
+
+	*Other characters that's not in these list will
